@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Linear Regression</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>Linear Regression</h1>
+
+
+
+<div class="input-section">
+
+
+<label>Enter X values (comma separated)</label>
+
+<input id="xInput" placeholder="Example: 1,2,3,4">
+
+
+
+<label>Enter Y values (comma separated)</label>
+
+<input id="yInput" placeholder="Example: 2,3,5,4">
+
+
+
+<button onclick="calculate()">
+Calculate
+</button>
+
+
+</div>
+
+
+
+
+<div class="result">
+
+
+<h3>Result</h3>
+
+
+<p id="equation"></p>
+
+<p id="metrics"></p>
+
+
+</div>
+
+
+
+
+
+<div class="graph">
+
+
+<h3>Linear Regression Graph</h3>
+
+
+<canvas id="chart"></canvas>
+
+
+
+<button onclick="resetPage()" class="reset">
+
+Reset
+
+</button>
+
+
+</div>
+
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
